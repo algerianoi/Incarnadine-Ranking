@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="https://old.lucaversari.it/weoi2024-ranking/img/favicon.ico">
+    <link rel="stylesheet" href="/style.css">
+    <script src="Ranking_files/jquery.min.js"></script>
+    <title>Ranking</title>
+</head>
+
+<body>
+
+    <div id="OuterFrame">
+        <div id="LogoPanel"> <img alt="Logo" src="/logo.png" />
+        </div>
+        <div id="UpperPanel">
+            <div id="ConnectionStatus_box">
+                <div id="ConnectionStatus_label">Incarnadine Team Ranking
+                </div>
+            </div>
+        </div>
+        <div id="TimeView" class="current post_cont">
+            <div id="TimeView_name"></div>
+            <div id="TimeView_selector">
+                <div id="TimeView_time">AlgerianOI
+                </div>
+                <div id="TimeView_expand">
+                    <div class="caret"></div>
+                </div>
+                <div id="TimeView_selector_elapsed">Elapsed time
+                </div>
+                <div id="TimeView_selector_remaining">Remaining time
+                </div>
+                <div id="TimeView_selector_current">Current time
+                </div>
+            </div>
+        </div>
+        <div id="SidePanel">
+            <div id="Overview"></div>
+            <div style="color: rgb(153, 153, 153); text-align: center; font-size: 12px; padding-top: 5px;"> Powered by
+                <a target="_blank" style="color: rgb(0, 163, 218); text-decoration: none;"
+                    href="https://cms-dev.github.io/">CMS</a>
+            </div>
+        </div>
+        <div id="InnerFrame">
+            <table id="Scoreboard">
+                <colgroup id="Scoreboard_cols">
+                    <col class="sel">
+                    </col>
+                    <col class="rank">
+                    </col>
+                    <col class="f_name">
+                    </col>
+                    <col class="l_name">
+                    </col>
+                    <col data-task="equal" data-sort_key="t_equal" class="score task">
+                    </col>
+                    <col data-task="mazes" data-sort_key="t_mazes" class="score task">
+                    </col>
+                    <col data-task="multihop" data-sort_key="t_multihop" class="score task">
+                    </col>
+                    <col data-task="trees" data-sort_key="t_trees" class="score task">
+                    </col>
+                    <col data-contest="weoi" data-sort_key="c_weoi" class="score contest">
+                    </col>
+                    <col data-sort_key="global" class="score global sort_key">
+                    </col>
+                </colgroup>
+                <thead id="Scoreboard_head">
+                    <tr>
+                        <th class="sel"><br /></th>
+                        <th class="rank">Rank</th>
+                        <th colspan="10" class="f_name">First Name</th>
+                        <th colspan="10" class="l_name">Last Name</th>
+                        <th colspan="3" data-task="equal" data-sort_key="t_equal" class="score task"><abbr
+                                title="Contest Rating">CR</abbr></th>
+                        <th colspan="3" data-task="mazes" data-sort_key="t_mazes" class="score task"><abbr
+                                title="Weekly Challenge">WC</abbr></th>
+                        <th colspan="3" data-task="multihop" data-sort_key="t_multihop" class="score task"><abbr
+                            title="Monthly Challenge">MC</abbr></th>
+                        <th colspan="3" data-task="trees" data-sort_key="t_trees" class="score task"><abbr
+                            title="Evenmential Challenges">Events</abbr></th>
+                        <th colspan="4" data-contest="weoi" data-sort_key="c_weoi" class="score contest"><abbr
+                            title="Unit Bonus">UB</abbr></th>
+                        <th colspan="5" data-sort_key="global" class="score global">Total</th>
+                    </tr>
+                </thead>
+                <tbody id="Scoreboard_body">
+                    
+                  
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
