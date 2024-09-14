@@ -2,12 +2,12 @@
     {
         "first": "Redhouane",
         "last": "Abdellah",
-        "marks": [1017,456,0,0,0]
+        "marks": [1017,456,0,150,0]
     },
     {
         "first": "Hiba",
         "last": "Hamidi",
-        "marks": [584,295,0,0,0]
+        "marks": [584,295,0,150,0]
     },
     {
         "first" :"Allae",
@@ -22,7 +22,7 @@
     {
         "first": "Kheira",
         "last": "Mihoub",
-        "marks": [743,351,0,0,0]
+        "marks": [743,351,0,30,0]
     },
     {
         "first": "Ikram",
@@ -47,7 +47,7 @@
     {
         "first": "Mohamed Ikbal",
         "last": "Tebib",
-        "marks": [0,175,0,0,0]
+        "marks": [0,175,0,30,0]
     },
     {
         "first": "Maria Aicha",
